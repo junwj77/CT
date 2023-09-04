@@ -19,8 +19,7 @@ int main(){
         }
         sum+=test_score[i];
     }
-    printf("%f\n", big);
-    printf("%f\n", sum);
+
     float mean;
     mean=sum/(float)test_num;
     printf("%f", mean);
